@@ -1,4 +1,5 @@
 # Dragons of Mugloar
+Author: Marek Lepik
 
 ## Project overview
 
@@ -92,3 +93,51 @@ Best score achieved (achieving 2nd place in the leaderboard):
 - Lives = 4
 - Score = 87,262,068
 - Game ID: p7VFBsGs
+
+# Frontend
+
+Frontend is built with Vue 3 and Vite, providing a modern and efficient user interface for user interaction.
+It uses minimal dependencies to keep the build lightweight and fast.
+The build is also hostable without nodejs server, making it easy to deploy in various environments.
+
+The frontend is accessable via Github pages:
+
+[Link to github pages](https://mareklepik.github.io/mugloar/)
+
+
+## Overview
+
+The project has:
+- Shared api client for communication with backend
+- Simple state management
+- Toast notifications for user feedback
+- Basic responsive design for usability on different devices
+- Simple and clean UI for easy navigation
+
+## Project startup
+
+#### 1. Navigate to frontend directory
+``cd frontend``
+
+#### 2. Install dependencies
+``npm install``
+
+#### 3. Start development server
+``npm run dev``
+
+The frontend server will start on `http://localhost:5173/mugloar/`.
+
+## Build for production
+
+To build the frontend for production, run the following command:
+``npm run build``
+
+This will create a `dist/` directory with the production build of the application.
+
+## Preview production build
+
+To preview the production build locally, run the following command:
+``npm run preview``
+
+This will start a local server to serve the contents of the `dist/` directory.
+http://localhost:4173/mugloar/
