@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.lepik</groupId>
     <artifactId>mugloar</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1</version>
     <name>mugloar</name>
     <description>mugloar</description>
     <url/>
