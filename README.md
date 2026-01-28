@@ -42,6 +42,10 @@ Score limit can be passed also via argument
 
 ``java -jar target/mugloar.jar start 1500``
 
+This will start REST API only
+
+``java -jar target/mugloar.jar``
+
 #### 4. Run tests
 ``./mvnw test``
 
