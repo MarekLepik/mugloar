@@ -99,6 +99,7 @@ Best score achieved (achieving 2nd place in the leaderboard):
 Frontend is built with Vue 3 and Vite, providing a modern and efficient user interface for user interaction.
 It uses minimal dependencies to keep the build lightweight and fast.
 The build is also hostable without nodejs server, making it easy to deploy in various environments.
+Project is using Tailwind CSS for rapid UI development and styling.
 
 The frontend is accessable via Github pages:
 
