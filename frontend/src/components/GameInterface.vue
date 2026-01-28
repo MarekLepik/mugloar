@@ -43,11 +43,11 @@
       Start the game to load tasks, shop, and inventory.
     </div>
 
-    <div v-else class="grid grid-cols-1 lg:grid-cols-5 gap-6">
+    <div v-else class="grid grid-cols-1 lg:grid-cols-5 gap-3">
       <GameTable
         title="Tasks"
         :columns="['ID', 'Message', 'ExpiresIn', 'Reward', 'Probability', 'Action']"
-        class="col-span-3"
+        class="lg:col-span-3"
       >
         <tr v-for="task in tasks" :key="task.adId" class="hover:bg-gray-700">
           <td :class="cellClass">{{ task.adId }}</td>
@@ -67,7 +67,7 @@
         </tr>
       </GameTable>
 
-      <GameTable title="Shop" :columns="['ID', 'Name', 'Cost', 'Action']" class="col-span-2">
+      <GameTable title="Shop" :columns="['ID', 'Name', 'Cost', 'Action']" class="lg:col-span-2">
         <tr v-for="item in shop" :key="item.id" class="hover:bg-gray-700">
           <td :class="cellClass">{{ item.id }}</td>
           <td :class="cellClass">{{ item.name }}</td>
