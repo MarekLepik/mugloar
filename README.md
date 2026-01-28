@@ -141,4 +141,4 @@ To preview the production build locally, run the following command:
 ``npm run preview``
 
 This will start a local server to serve the contents of the `dist/` directory.
-http://localhost:4173/mugloar/
+`http://localhost:4173/mugloar/`
